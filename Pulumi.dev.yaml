@@ -1,0 +1,7 @@
+config:
+  aws:region: ap-northeast-2
+  instance:sshKeyPairName: kayoko_ed25519
+  tailscale:authKey:
+    secure: AAABAPLdxBH/9B7VX2m5/5OyqFo278y1bqMekqvIKz98z98l8MZnyjxZjsuM4PvgWa2N0F6Hg9xwrUX/RL0b6eWmnfuNANwP2lSeUyZLsOqUSViuLHXZBLU=
+environment:
+  - koharu_oidc
