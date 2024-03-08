@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  openai-whisper-asr-webservice:
+    image: onerahmet/openai-whisper-asr-webservice:latest-gpu
+    environment:
+      NVIDIA_DRIVER_CAPABILITIES: all
+      ASR_MODEL: base
+      ASR_ENGINE: openai_whisper
+    ports:
+      - 9000:9000
