@@ -12,7 +12,7 @@ services:
               capabilities: [gpu]
     environment:
       NVIDIA_DRIVER_CAPABILITIES: all
-      ASR_MODEL: base
-      ASR_ENGINE: openai_whisper
+      ASR_ENGINE: faster_whisper
+      ASR_MODEL: large-v2
     ports:
       - 9000:9000
